@@ -51,3 +51,50 @@ body {
             border-right-color: transparent;
       }
 }
+
+
+.snap-typewriter {
+      animation: typewriter 2s steps(40) +3s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 11em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(243, 3, 3, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+.soon-typewriter {
+      animation: typewriter 2s steps(40) +5s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 11em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(243, 3, 3, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
