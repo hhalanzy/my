@@ -1,5 +1,5 @@
 document.getElementById('headertxt').innerHTML = 'Tiktok Downloader';
-document.getElementById('linktxt').innerHTML = 'Masukan Link';
+document.getElementById('linktxt').innerHTML = 'تحميل مقاطع تيك توك';
 
 //apikey
 let ehem = ('\x6e\x75\x6c\x67\x61\x6e\x74\x65\x6e\x67'); //HEX
