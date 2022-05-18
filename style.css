@@ -30,7 +30,7 @@ body {
 /*Animation*/
 
 .anim-typewriter {
-      animation: typewriter 2s steps(40) 1s 1 normal both,
+      animation: typewriter 1s steps(40) 1s 1 normal both,
       blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -39,7 +39,7 @@ body {
             width: 0;
       }
       to {
-            width: 11em;
+            width: 6em;
       }
 }
 
@@ -54,7 +54,7 @@ body {
 
 
 .snap-typewriter {
-      animation: typewriter 2s steps(40) +3s 1 normal both,
+      animation: typewriter 1s steps(40) +2s 1 normal both,
       blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .soon-typewriter {
-      animation: typewriter 2s steps(40) +5s 1 normal both,
+      animation: typewriter 1s steps(40) +3s 1 normal both,
       blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -97,4 +97,5 @@ body {
       to {
             border-right-color: transparent;
       }
+
 }
