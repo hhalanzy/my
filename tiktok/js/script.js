@@ -1,4 +1,4 @@
-document.getElementById('headertxt').innerHTML = 'Tiktok Downloader';
+document.getElementById('headertxt').innerHTML = '';
 
 //apikey
 let ehem = ('\x6e\x75\x6c\x67\x61\x6e\x74\x65\x6e\x67'); //HEX
@@ -8,7 +8,7 @@ var key = ehem;
 //functional
 function getTik() {
     if (form.linkTiktok.value == "") {
-        swal.fire('~error~', 'Tolong Masukan Link Dengan Benar', 'error');
+        swal.fire('مافي رابط');
     } else {
         var tiktok = document.getElementById('tik');
         tiktok.innerHTML = '<img src="https://imgkub.com/images/2022/05/09/loading.gif"></img>';
