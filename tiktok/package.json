@@ -1,0 +1,19 @@
+{
+  "name": "twitter-direct-download-video",
+  "version": "1.0.1",
+  "description": "download videos direct from Twitter using the link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hammyster",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "qs": "^6.10.3"
+  }
+}

@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs', {title: "Video" }) %>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <%- include('partials/nav.ejs') %>
+                <center>
+                    <% if (video.found==true) { %>
+                        <div class="box-downloads">
+                        <% for (let i=0; i < video.download.length; i++){ %>
+                            <h5>
+                                <%= video.download[i].dimension != null ? video.download[i].dimension : "Sem informação" %><br> <a id="download-link" onclick="downloadLink('<%= video.download[i].url %>')" download="video">Download</a>
+                            </h5>
+                        <% } %>
+                        </div>
+                    <% } else { %>
+                        <h1> Vídeo não encontrado!<br><a href="/">voltar</a> </h1>
+                    <% } %>
+                </center>
+            </div>
+        </div>
+    </div>
+<%- include('partials/footer.ejs') %>
